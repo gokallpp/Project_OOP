@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\gokal\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\gokal\\.nuget\\packages"
+    ]
+  }
+}

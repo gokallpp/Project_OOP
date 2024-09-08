@@ -1,0 +1,106 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>@ViewData["Title"] - Boy with Codes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4; /* Light Gray */
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #004080; /* Light Dark Blue */
+        }
+
+        .logo h2 {
+            color: #ffffff; /* White */
+            letter-spacing: 4px;
+            cursor: pointer;
+        }
+
+        .items ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+            .items ul a {
+                color: #ffffff; /* White */
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 16px;
+            }
+
+                .items ul a:hover {
+                    color: #66b3ff; /* Light Blue */
+                }
+
+        .btn button {
+            padding: 6px 20px;
+            background-color: #ffcc66; /* Light Orange */
+            border: none;
+            border-radius: 5px;
+            color: #004080; /* Light Dark Blue */
+            font-size: 16px;
+            outline: none;
+            cursor: pointer;
+        }
+
+            .btn button:hover {
+                background-color: #ffffff; /* White */
+                color: #ffcc66; /* Light Orange */
+                border: 1px solid #ffcc66; /* Light Orange */
+            }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h2 >GOKALP</h2>
+        </div>
+        <div class="items">
+            <ul>
+                <a href="/Product/Index">Ürünler</a>            
+                <a href="#">Müşteriler</a>
+                <a href="#">Kategoriler</a>
+                <a href="#">İstatistikler</a>
+                <a href="#">Çıkış</a>
+            </ul>
+        </div>
+        <div class="btn">
+            <button>İletişim</button>
+        </div>
+    </div>
+
+    <!-- Main content area where the body content will be rendered -->
+    @RenderBody()
+
+</body>
+</html>
+
+
+
+
+
+
+
+

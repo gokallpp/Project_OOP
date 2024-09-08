@@ -1,0 +1,90 @@
+﻿@using Proje_OOP.Entity
+@model List<Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_CoreLayout.cshtml";
+}
+
+<style>
+
+    .styled-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        margin: 25px 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .styled-table thead {
+            background-color: #ffcc66; /* Başlık arka plan rengi */
+            color: #333; /* Başlık metin rengi */
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+            .styled-table tbody tr:nth-of-type(even) {
+                background-color: #fff9e6; /* Çift satır arka plan rengi */
+            }
+
+            .styled-table tbody tr:nth-of-type(odd) {
+                background-color: #ffffff; /* Tek satır arka plan rengi */
+            }
+
+            .styled-table tbody tr:hover {
+                background-color: #ffe6b3; /* Üzerine gelindiğinde arka plan rengi */
+            }
+
+            .styled-table tbody tr:last-of-type {
+                border-bottom: 2px solid #ffcc66; /* Son satır altı sınır rengi */
+            }
+
+
+
+            .btn-primary {
+                background-color: #004085; /* Koyu mavi renk */
+                border-color: #003768; /* Kenar rengi */
+            }
+</style>
+<br />
+
+
+<table class="table table-bordered styled-table">
+    <tr>
+        <th>#</th>
+        <th>Ürün Adı</th>
+        <th>Fiyat</th>
+        <th>Stok</th>
+        <th>SİL</th>
+        <th>Güncelle</th>
+    </tr>
+
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+            <td>@item.Stock</td>
+            <td><a href="/Product/DeleteProduct/@item.Id" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Product/UpdateProduct/@item.Id" class="btn btn-outline-success">Güncelle</a></td>
+        </tr>
+    }
+
+   
+
+</table>
+
+
+
+
+
+
+<a href="/Product/AddProduct/" class="btn btn-primary">Yeni Ürün Girişi</a>
