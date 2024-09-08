@@ -3,10 +3,10 @@
 ## İçerik
 Web tabanlı ürün yönetim uygulaması. Uygulama, ürünlerin listesini yönetmek için kullanılıyor ve şu işlevleri sunuyor:
 
-**Ürün Listesi:** Uygulama, ürünlerin adını, fiyatını ve stok miktarını tablo halinde gösteriyor.
-**Silme ve Güncelleme İşlevleri:** Her ürün için "Sil" ve "Güncelle" butonları mevcut, bu butonlar ile kullanıcı ürünleri silebilir veya bilgilerini güncelleyebilir.
-**Yeni Ürün Ekleme:** "Yeni Ürün Girişi" butonu, yeni bir ürün eklemek için kullanılabilir.
-**Navigasyon Menüsü:** Üst menüde "Ürünler", "Müşteriler", "Kategoriler" ve "İstatistikler" gibi farklı sayfalara yönlendiren bağlantılar bulunuyor.
+**Ürün Listesi:** Uygulama, ürünlerin adını, fiyatını ve stok miktarını tablo halinde gösteriyor.<br>
+**Silme ve Güncelleme İşlevleri:** Her ürün için "Sil" ve "Güncelle" butonları mevcut, bu butonlar ile kullanıcı ürünleri silebilir veya bilgilerini güncelleyebilir.<br>
+**Yeni Ürün Ekleme:** "Yeni Ürün Girişi" butonu, yeni bir ürün eklemek için kullanılabilir.<br>
+**Navigasyon Menüsü:** Üst menüde "Ürünler", "Müşteriler", "Kategoriler" ve "İstatistikler" gibi farklı sayfalara yönlendiren bağlantılar bulunuyor.<br>
 
 
 
