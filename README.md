@@ -1,21 +1,22 @@
 # Ürün Yönetim ve Stok Takip Sistemi
 
 ## İçerik
-web tabanlı ürün yönetim uygulamasına ait bir ekran görüntüsünü gösteriyor. Uygulama, ürünlerin listesini yönetmek için kullanılıyor ve şu işlevleri sunuyor:
+Web tabanlı ürün yönetim uygulaması. Uygulama, ürünlerin listesini yönetmek için kullanılıyor ve şu işlevleri sunuyor:
 
 Ürün Listesi: Uygulama, ürünlerin adını, fiyatını ve stok miktarını tablo halinde gösteriyor.
 Silme ve Güncelleme İşlevleri: Her ürün için "Sil" ve "Güncelle" butonları mevcut, bu butonlar ile kullanıcı ürünleri silebilir veya bilgilerini güncelleyebilir.
 Yeni Ürün Ekleme: "Yeni Ürün Girişi" butonu, yeni bir ürün eklemek için kullanılabilir.
 Navigasyon Menüsü: Üst menüde "Ürünler", "Müşteriler", "Kategoriler" ve "İstatistikler" gibi farklı sayfalara yönlendiren bağlantılar bulunuyor.
-Genel olarak, bu uygulama ürün yönetimi ve stok takibi için geliştirilmiş bir sistemdir.
 
 
 
 - C#
-- ASP.NET Framework
+- ASP.NET
+- OOP (Object Oriented Programming)
 - SQL
 - HTML5
 - CSS3
+- Bootstrap
 
 
 
